@@ -1,0 +1,31 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+			
+		
+   		<property name="connection.url">jdbc:postgresql://localhost:5432/University</property> <!-- BD Mane -->
+   		<property name="connection.driver_class">org.postgresql.Driver</property> <!-- DB Driver -->
+   		<property name="connection.username">postgres</property> <!-- DB User -->
+   		<property name="connection.password">10011001</property> <!-- DB Password -->
+   		
+   		<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property> <!-- DB Dialect -->
+   		<property name="hbm2ddl.auto">update</property> <!-- create / create-drop / update -->
+		
+		<property name="show_sql">true</property> <!-- Show SQL in console -->
+		<property name="format_sql">true</property> <!-- Show SQL formatted -->
+		
+		<mapping class="Beans.Etudiant"/>
+		<mapping class="Beans.Département"/>
+		<mapping class="Beans.Faculté"/>
+		<mapping class="Beans.Formation"/>
+		<mapping class="Beans.Niveau"/>
+		<mapping class="Beans.Specialité"/>
+		<mapping class="Beans.University"/>
+		<mapping class="Beans.Utilisateur"/>
+		
+	</session-factory>
+</hibernate-configuration>
