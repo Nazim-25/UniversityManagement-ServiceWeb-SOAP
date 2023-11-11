@@ -29,8 +29,8 @@ To set up and install this project, follow these steps:
 4. Create a database called `University` in PostgreSQL.
 5. Add the PostgreSQL driver and Hibernate to your project's dependencies.
 6. Change the username and password of the SGBD in the `hibernate.cfg.xml` file and the `Connexion` class in the University-Management application.
-7. Start the University Application by running the `java -jar UniversityApplication.jar` command.
-8. Start the Garde Application by running the `java -jar GardeApplication.jar` command.
+7. Start the University Application by deploying it to an Apache Tomcat server.
+8. Start the Garde Application by deploying it to a different Apache Tomcat server with a different port .
 
 ## Usage
 
@@ -41,6 +41,10 @@ To use this project, follow these steps:
 3. Click on the "Students" tab.
 4. Enter the matricule or name and first name of the student you want to verify and click the "Search" button.
 5. The student's information will be displayed on the screen.
+
+## Demonstration Pictures
+
+
 
 ## Contributing
 
