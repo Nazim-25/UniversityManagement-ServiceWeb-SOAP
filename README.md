@@ -42,8 +42,17 @@ To use this project, follow these steps:
 4. Enter the matricule or name and first name of the student you want to verify and click the "Search" button.
 5. The student's information will be displayed on the screen.
 
-## Demonstration Pictures
+## Some Pictures
 
+<img src="/Images/Admin-Index.jpg" width="650">
+
+<img src="/Images/GardeIndex.jpg" width="650">
+
+<img src="Images/Student-Mangement.png" width="650"> 
+
+<img src="/Images/Garde-Result.jpg" width="650">
+
+<img src="Images/SearchByName.png" width="650">
 
 
 ## Contributing
