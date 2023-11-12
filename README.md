@@ -44,15 +44,30 @@ To use this project, follow these steps:
 
 ## Some Pictures
 
-<img src="/Images/Admin-Index.jpg" width="650">
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Admin Index Page</div>
+  <img src="/Images/Admin-Index.jpg" width="700">
+</div>
 
-<img src="/Images/GardeIndex.jpg" width="650">
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Garde Index Page</div>
+  <img src="/Images/GardeIndex.jpg" width="700">
+</div>
 
-<img src="Images/Student-Mangement.png" width="650"> 
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Student Management</div>
+  <img src="Images/Student-Mangement.png" width="700">
+</div>
 
-<img src="/Images/Garde-Result.jpg" width="650">
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Garde Result</div>
+  <img src="/Images/Garde-Result.jpg" width="700">
+</div>
 
-<img src="Images/SearchByName.png" width="650">
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Search by Name</div>
+  <img src="Images/SearchByName.png" width="700">
+</div>
 
 
 ## Contributing
